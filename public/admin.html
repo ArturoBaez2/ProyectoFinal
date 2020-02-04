@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link href = "./css/admin.css" rel = "stylesheet" type = "text/css" />
+    <title>
+      SinFilas (Administrador) - ITESM
+    </title>
+    <div class="container">
+      <h1>
+        Sin Filas - ITESM
+      </h1>
+    </div>
+  </head>
+
+  <h2> Selecciona una cafetería para visualizar el menú del día </h2>
+
+  <body>
+    <div class="botonesC">
+      <button type="submit" id = "jubileo"> JUBILEO </button>
+      <button type="submit" id = "centrales" > CENTRALES </button>
+      <button type="submit" id = "personal" > C. PERSONAL </button>
+    </div>
+
+    <div class="menuCafeterias">
+      <form id="menuJ" class="visibility">
+        <button type="submit" class="atras"> ⇦ </button>
+        <h2>Menu Jubileo (Clave C. 1) </h2>
+        <ul id="listaJ"></ul>
+      </form>
+
+      <form id="menuC" class="visibility">
+        <button type="submit" class="atras"> ⇦ </button>
+        <h2>Menu Centrales (Clave C. 2) </h2>
+        <ul id="listaC"></ul>
+      </form>  
+
+      <form id="menuP" class="visibility">
+        <button type="submit" class="atras"> ⇦ </button>
+        <h2>Menu Cafeteria del Personal (Clave C. 3) </h2>
+        <ul id="listaP"></ul>
+      </form>
+    </div>
+
+
+    <div class="informacion" >
+      <h2> EDITOR DE MENU</h2>
+    
+      <h3> Nuevo Platillo </h3>
+        <div class="info"><input type="number" id="nuevoC" placeholder="Clave de Cafeteria"></div>
+        <div class="info"><input type="text" id="nuevoP" placeholder="Nombre del platillo"></div>
+        <div class ="info"><textarea id="nuevaD" placeholder="Descripcion completa del platillo"></textarea></div>
+        <div class = "info"><input type="number" id="nuevoPrecio" placeholder="Precio del platillo"></div>
+        <input type="submit" id = "submitN" value="NUEVO">
+      
+      <h3> Editar Platillo </h3>
+        <div class="info"><input type="text" id="viejoId" placeholder="Ingresa el id del platillo a editar"></div>
+        <div class="info"><input type="number" id="actualizarC" placeholder="Clave de Cafeteria"></div>
+        <div class="info"><input type="text" id="actualizarP" placeholder="Nombre del platillo"></div>
+        <div class ="info"><textarea id="actualizarD" placeholder="Descripcion completa del platillo"></textarea></div>
+        <div class = "info"><input type="number" id="actualizarPrecio" placeholder="Precio del platillo"></div>
+        <input type="submit" id = "submitA" value="ACTUALIZAR">
+
+      <h3> Eliminar Platillo </h3>
+      <div class="info"><input type="number" id="eliminarC" placeholder="Clave de Cafeteria"></div>
+      <div class="info"><input type="text" id="eliminarId" placeholder="Ingresa el id del platillo a eliminar"></div>
+      <input type="submit" id = "submitE" value="ELIMINAR">
+    </div>
+    </body>   
+     
+  </body>
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="js/index.js"></script>
+    <script src="js/admin.js"></script>
+  </body>
+</html>

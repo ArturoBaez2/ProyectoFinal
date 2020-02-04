@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>SinFilas</title>
+    <link href="css/index.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <header> SinFilas </header>
+   
+      <div class="homeMain">
+
+        <div class="homeTabs">
+          
+          <div class="tab">
+            <button class="tablinks" onclick="openTab(event,'login')"> 
+              Log In </button>
+            <button class="tablinks" onclick="openTab(event,'signup')">
+              Sign Up</button>
+          </div>
+          <div id="login" class="tabcontent">
+            <p> Aqui haces el login </p>
+            <form id="loginForm">
+              <div>
+                <label>Mail del Usuario: </label>
+                <input type="text" id="loginMail">
+              </div>
+              <div>
+                <label>Contrasena: </label>
+                <input type="text" id="loginPassword">
+              </div>
+                <button type="submit">Guardar </button>
+            </form>
+          </div>
+          <div id= "signup" class="tabcontent">
+            <p> Aqui haces el signup </p>
+            <form id="signupForm">
+              <div>
+                <label>Mail: </label>
+                <input type="text" id="signupMail">
+              </div>
+              <div>
+                <label>Nombre de Usuario: </label>
+                <input type="text" id="signupName">
+              </div>
+              <div>
+                <label>Contrasena: </label>
+                <input type="text" id="signupPassword">
+              </div>
+              <button type="submit">Guardar </button>
+            </form>
+          </div>
+          <div id="order">
+            <button type="button" id="ordenar">
+              Empezar a ordenar
+           </button>
+          </div>
+        </div>
+
+        
+        
+
+        <div class="homeInfo">
+          <div class ="info">
+            <h1>
+              Centrales
+            </h1>
+          </div>
+          <div class ="info">
+            <h1>
+              Jubileo
+            </h1>
+          </div>
+          <div class ="info">
+            <h1>
+              Profesores
+            </h1>
+          </div>
+        </div>
+
+        </div class="homeNews">
+          <fieldset>
+            <ol class="homeNewsul">
+              
+            </ol>
+          </fieldset>
+        <div>
+
+      </div>
+      
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.js"
+      integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+      crossorigin="anonymous"></script>   
+    <script src="js/index.js"></script>
+  </body>
+</html>

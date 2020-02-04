@@ -1,0 +1,47 @@
+*{
+	box-sizing: border-box;
+}
+
+body{
+
+	background-color: #ADFBF6;
+}
+
+h1{
+
+	text-align: center;
+}
+
+
+.visibility{
+
+	visibility: hidden;
+}
+
+.show{
+
+	visibility: visible;
+}
+
+#menuJ{
+
+	margin-top: -23px;
+
+}
+
+#menuC{
+
+	margin-top: -82px;
+	
+}
+
+#menuP{
+
+	margin-top: -90px;
+}
+
+.info{
+
+	margin-top: 10px;
+	margin-bottom: 10px;
+}

@@ -1,0 +1,91 @@
+* {
+  box-sizing: border-box;
+}
+
+body{
+
+  background-color: #ADFBF6;
+}
+
+header {
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+  font-family: Tahoma, Geneva, sans-serif; 
+}
+.imagenews{
+
+  height: 80px;
+  align-content: center;
+}
+
+.listaN{
+
+  list-style-type: none;
+}
+#order{
+  visibility: hidden;
+}
+
+.homeMain{
+  display: flex;
+  flex-direction: row;
+  padding-top: 40px;
+}
+
+.homeTabs{
+  flex: 1;
+}
+
+.homeInfo{
+  flex: 1;
+}
+
+.homeNews{
+  flex: 1;
+}
+
+h1{
+  text-align: left;
+}
+
+.info{
+  border: 1px solid black;
+  padding-left: 30px;
+}
+
+.tab {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+.tab button: hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+}

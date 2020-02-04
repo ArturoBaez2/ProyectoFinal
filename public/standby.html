@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>SinFilas</title>
+    <link href="css/standby.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <header> SinFilas </header>
+    <fieldset id="preparando">
+      <div id="loader1" class="loader"></div>
+      <div style="display:none;" id="myDiv1" class="animate-bottom">
+        <h2>Se registro la orden</h2>
+        <h5>Ahorraste 10 min. de fila</h5>
+      </div>
+    </fieldset>
+    <fieldset id="terminando">
+     <div id="loader2" class="loader"></div>
+     <div style="display:none;" id="myDiv2" class="animate-bottom">
+        <h2>Se esta preparando la orden</h2>
+        <h5>Nuestros cocineros ya se encuentran trabajando</h5>
+     </div>
+    </fieldset>
+    <fieldset id="listo">
+      <div id="loader3" class="loader"></div>
+      <div style="display:none;" id="myDiv3" class="animate-bottom">
+        <h2>Orden lista</h2>
+        <h5>Puedes recoger tu orden en la cafeteria</h5>
+      </div>
+    </fieldset>
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.js"
+      integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+      crossorigin="anonymous"></script>     
+    <script src="js/standby.js"></script>
+  </body>
+</html>

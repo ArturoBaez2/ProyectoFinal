@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link href = "./css/usuario.css" rel = "stylesheet" type = "text/css" />
+    <title>
+      SinFilas - ITESM
+    </title>
+    <div class="container">
+      <h1>
+        Sin Filas - ITESM
+      </h1>
+    </div>
+  </head>
+
+  <nav class="navbar">
+    <div class="infoP">
+
+      <button type="submit" id = "ajustes"> Ajustes </button>
+      <button type="submit" id = "info" class="visibility"> Mi Información </button>
+      <button type="submit" id = "pedidos" class="visibility"> Mis Pedidos </button>
+    </div>
+
+     <fieldset id="infoU" class="visibility">
+       <ul id="infoUl">
+         
+       </ul>
+     </fieldset>
+     <fieldset id="infoPedidos" class="visibility">
+       <ul id="infoPe">
+         
+       </ul>
+     </fieldset>
+
+  </nav>
+
+  <body>
+
+    <section class="todasCafeterias">
+     
+      <div class="jubileo">
+       <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcR4E1DB32lReJHXMLrT0cEj5XfIe0kSAlmlAYXRfr0HqenTiHSE" alt="Imagen de jubileo"/>
+       <div class="centroJ">Jubileo</div>
+       <fieldset id="textoJ">
+        <p>Ubicada en: Tecnologico de Monterrey (Debajo de Centro de Convenciones) </p>
+        <p>Direccion: Av. Junco de la Vega, Tecnologico, 64849 Monterrey, N.L. </p>
+        <p>Horario: Abre 7.30AM - Cierra 7PM</p>
+       </fieldset>
+     </div>
+
+     <div class="centrales">
+       <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSWrvkOO9cZoPJKwOHzFZ9hp3X5ZBtxTbLog4QhHQm1qbRKDdRB" alt="Imagen de centrales"/>
+       <div class="centroC">Centrales</div>
+       <fieldset id="textoC">
+        <p>Ubicada en: Tecnologico de Monterrey (En frente del Domo)</p>
+        <p>Direccion: Av. Junco de la Vega, Tecnologico, 64849 Monterrey, N.L. </p>
+        <p>Horario: Abre 7.30AM - Cierra 7PM</p>
+
+       </fieldset>
+     </div>
+
+     <div class="cafeteriaPersonal">
+       <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTHmQpJsRpsHLlP6_o5wUn50VDoj8bhTiv0yw5Y5nFwAizNfUFY" alt="Imagen de centrales"/>
+       <div class="centroP">Personal</div>
+       <fieldset id="textoP">
+        <p>Ubicada en: Tecnologico de Monterrey (A un lado del campo de beisbol)</p>
+        <p>Direccion: Av. Junco de la Vega, Tecnologico, 64849 Monterrey, N.L. </p>
+        <p>Horario: Abre 7.30AM - Cierra 7PM</p>
+       </fieldset>
+     </div>
+  </form>
+    </section>
+
+    <section class="cadaMenu">
+      <form id="menuJ" class="visibility">
+        <button type="submit" class="atras"> ⇦ </button>
+        <h2>Menu Jubileo</h2>
+            <ul id="listaJ"></ul>
+      </form>
+
+      <form id="menuC" class="visibility">
+         <button type="submit" class="atras"> ⇦ </button>
+         <h2>Menu Centrales </h2>
+          <ul id="listaC"></ul>
+      </form>
+
+      <form id="menuP" class="visibility">
+         <button type="submit" class="atras"> ⇦ </button>
+         <h2>Menu Cafeteria de Personal</h2>
+          <ul id="listaP"></ul>
+      </form>
+
+    </section>
+     
+  </body>
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="js/usuario.js"></script>
+  </body>
+</html>
