@@ -5,7 +5,7 @@ var usuario;
 console.log("SI JALO");
 
 function validate(){
-  url = "http://localhost:8080/cafeterias-api/validate";
+  url = "/cafeterias-api/validate";
   $.ajax({
     url : url,
     method : "POST",
@@ -28,7 +28,7 @@ function validate(){
 }
 
 function getPedidos( mail ){
-	url = "http://localhost:8080/cafeterias-api/getpedidos/"+mail;
+	url = "/cafeterias-api/getpedidos/"+mail;
 	 $.ajax({
 	    url : url,
 	    method : "GET",
@@ -45,7 +45,7 @@ function getPedidos( mail ){
 }
 
 function postPedido( mail , objP ){
-	url = "http://localhost:8080/cafeterias-api/postpedido/"+mail;
+	url = "/cafeterias-api/postpedido/"+mail;
   	$.ajax({
 	    url : url,
 	    method : "POST",
@@ -99,7 +99,7 @@ function pedidosU(){
 function menuJ(){
 
 	let search = 1;
-	let url = 'http://localhost:8080/cafeterias-api/getByCafeteria?cafeteria='+ search;
+	let url = '/cafeterias-api/getByCafeteria?cafeteria='+ search;
 				let settings = {
 					method : "GET"
 				}
@@ -117,7 +117,7 @@ function menuJ(){
 
 function cafeJ(){
 
-	let url = 'http://localhost:8080/cafeterias-api/menu';
+	let url = '/cafeterias-api/menu';
 
 	let settings = {
 		method : "GET"
@@ -136,7 +136,7 @@ function cafeJ(){
 function menuC(){
 
 	let search = 2;
-	let url = 'http://localhost:8080/cafeterias-api/getByCafeteria?cafeteria='+ search;
+	let url = '/cafeterias-api/getByCafeteria?cafeteria='+ search;
 				let settings = {
 					method : "GET"
 				}
@@ -155,7 +155,7 @@ function menuC(){
 
 function cafeC(){
 
-	let url = 'http://localhost:8080/cafeterias-api/menu';
+	let url = '/cafeterias-api/menu';
 
 	let settings = {
 		method : "GET"
@@ -174,7 +174,7 @@ function cafeC(){
 function menuP(){
 
 	let search = 3;
-	let url = 'http://localhost:8080/cafeterias-api/getByCafeteria?cafeteria='+ search;
+	let url = '/cafeterias-api/getByCafeteria?cafeteria='+ search;
 				let settings = {
 					method : "GET"
 				}
@@ -194,7 +194,7 @@ function menuP(){
 
 function cafeP(){
 
-	let url = 'http://localhost:8080/cafeterias-api/menu';
+	let url = '/cafeterias-api/menu';
 
 	let settings = {
 		method : "GET"

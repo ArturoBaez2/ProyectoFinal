@@ -1,0 +1,4 @@
+{"_id":{"$oid":"5e38920e7682a185f876ea51"},"cafeteria":1.0,"platofuerte":"Una prueba","precio":75.0,"descripcion":"Pechuga de pollo","id":5678.0}
+{"_id":{"$oid":"5e3892477682a185f876ea52"},"cafeteria":2.0,"platofuerte":"Otra prueba","precio":80.0,"descripcion":"Pechuga de carne","id":5679.0}
+{"_id":{"$oid":"5e38bec4434c9d4b724b7c44"},"cafeteria":3.0,"platofuerte":"Otra prueba","precio":80.0,"descripcion":"Pechuga de carne","id":5680.0}
+{"_id":{"$oid":"5e38d40d82bec51c8a6c77ee"},"cafeteria":2,"platofuerte":"Tacos","precio":60,"descripcion":"Canasta","id":"5021252e-1f94-44d4-88f0-1f2179f6545c","__v":0}

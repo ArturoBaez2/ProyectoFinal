@@ -1,0 +1,4 @@
+{"_id":{"$oid":"5e3855c7143c36c48da1e890"},"mail":"usuario1@hotmail.com","nombre":"Alex","password":"1234","admin":true}
+{"_id":{"$oid":"5e38560d143c36c48da1e891"},"mail":"usuario2@hotmail.com","nombre":"Pepe","password":"2345","admin":false}
+{"_id":{"$oid":"5e38562f143c36c48da1e892"},"mail":"usuario3@hotmail.com","nombre":"Alberto","password":"3456","admin":false}
+{"_id":{"$oid":"5e3861a85a91c51746ac2d8c"},"mail":"usuario4@hotmail.com","nombre":"Luis","password":"4321","admin":false,"__v":0}

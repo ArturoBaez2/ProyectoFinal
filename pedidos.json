@@ -1,0 +1,6 @@
+{"_id":{"$oid":"5e392008434c9d4b724b7c45"},"mail":"usuario2@hotmail.com","pedidos":[{"platofuerte":"Lasagna","precio":50.0,"fecha":"20/20/20"},{"platofuerte":"Pizza","precio":60.0,"fecha":"20/20/20"}]}
+{"_id":{"$oid":"5e393338ea9faa1e1a0c4b97"},"mail":"usuario2@hotmail.com","pedidos":[{"_id":{"$oid":"5e393338ea9faa1e1a0c4b98"},"platofuerte":" Otra prueba ","precio":80,"fecha":"Tue Feb 04 2020 03:02:48 GMT-0600 (Central Standard Time)"}],"__v":0}
+{"_id":{"$oid":"5e3933fc0e8f821e1d543c4d"},"mail":"usuario2@hotmail.com","pedidos":[{"_id":{"$oid":"5e3933fc0e8f821e1d543c4e"},"platofuerte":" Una prueba ","precio":75,"fecha":"Tue Feb 04 2020 03:06:04 GMT-0600 (Central Standard Time)"}],"__v":0}
+{"_id":{"$oid":"5e39344ebcb1c91e1fd57666"},"mail":"usuario2@hotmail.com","pedidos":[{"_id":{"$oid":"5e39344ebcb1c91e1fd57667"},"platofuerte":" Tacos ","precio":60,"fecha":"20/01/20"}],"__v":0}
+{"_id":{"$oid":"5e3939c9ec7dce1e2c12e867"},"mail":"usuario2@hotmail.com","pedidos":[{"_id":{"$oid":"5e3939c9ec7dce1e2c12e868"},"platofuerte":" Otra prueba ","precio":80,"fecha":"20/01/20"}],"__v":0}
+{"_id":{"$oid":"5e393c42ec7dce1e2c12e869"},"mail":"usuario2@hotmail.com","pedidos":[{"_id":{"$oid":"5e393c42ec7dce1e2c12e86a"},"platofuerte":" Otra prueba ","precio":80,"fecha":"20/01/20"}],"__v":0}

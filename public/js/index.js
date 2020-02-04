@@ -115,7 +115,7 @@ function watchForm(){
 }
 
 function userLogin(mailS,passwordS){
-  url = "http://localhost:8080/cafeterias-api/usuarioLogin";
+  url = "/cafeterias-api/usuarioLogin";
   //console.log(mailS);
   //console.log(passwordS);
   $.ajax({
@@ -141,7 +141,7 @@ function userLogin(mailS,passwordS){
 }
 
 function userSignup(mailS, nameS, passwordS){
-  url = "http://localhost:8080/cafeterias-api/usuarioSignup";
+  url = "/cafeterias-api/usuarioSignup";
   //console.log(mailS);
   //console.log(nameS);
   //console.log(passwordS);
@@ -180,7 +180,7 @@ function passToken(token){
 }
 
 function validate(){
-  url = "http://localhost:8080/cafeterias-api/validate";
+  url = "/cafeterias-api/validate";
   $.ajax({
     url : url,
     method : "POST",

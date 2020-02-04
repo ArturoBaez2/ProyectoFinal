@@ -16,7 +16,7 @@ function watchForm2(){
 
 			if(cafeteria!=""&&platofuerte!=""&&descripcion!=""){
 
-				let url = "http://localhost:8080/cafeterias-api/nuevo-platillo";
+				let url = "/cafeterias-api/nuevo-platillo";
 				
 				let bodyJSON = {
 					"cafeteria" : cafeteria,
@@ -74,7 +74,7 @@ function watchForm2(){
 			let id = document.getElementById('viejoId').value;
 
 
-			let url = "http://localhost:8080/cafeterias-api/actualizar-platillo/"+document.getElementById('viejoId').value;
+			let url = "/cafeterias-api/actualizar-platillo/"+document.getElementById('viejoId').value;
 
 			let cafeteria = document.getElementById('actualizarC').value;
 			let platofuerte = document.getElementById('actualizarP').value;
@@ -133,7 +133,7 @@ function watchForm2(){
 
 				let cafeteria = document.getElementById('eliminarC').value;
 
-				let url = "http://localhost:8080/cafeterias-api/remover-platillo/"+document.getElementById('eliminarId').value;
+				let url = "/cafeterias-api/remover-platillo/"+document.getElementById('eliminarId').value;
 				let settings = {
 					method : "DELETE",
 				}
@@ -171,7 +171,7 @@ function watchForm2(){
 
 function cafeJ(){
 
-	let url = 'http://localhost:8080/cafeterias-api/menu';
+	let url = '/cafeterias-api/menu';
 
 	let settings = {
 		method : "GET"
@@ -190,7 +190,7 @@ function cafeJ(){
 function menuJ(){
 
 	let search = 1;
-	let url = 'http://localhost:8080/cafeterias-api/getByCafeteria?cafeteria='+ search;
+	let url = '/cafeterias-api/getByCafeteria?cafeteria='+ search;
 				let settings = {
 					method : "GET"
 				}
@@ -207,7 +207,7 @@ function menuJ(){
 
 function cafeC(){
 
-	let url = 'http://localhost:8080/cafeterias-api/menu';
+	let url = '/cafeterias-api/menu';
 
 	let settings = {
 		method : "GET"
@@ -226,7 +226,7 @@ function cafeC(){
 function menuC(){
 
 	let search = 2;
-	let url = 'http://localhost:8080/cafeterias-api/getByCafeteria?cafeteria='+ search;
+	let url = '/cafeterias-api/getByCafeteria?cafeteria='+ search;
 				let settings = {
 					method : "GET"
 				}
@@ -243,7 +243,7 @@ function menuC(){
 
 function cafeP(){
 
-	let url = 'http://localhost:8080/cafeterias-api/menu';
+	let url = '/cafeterias-api/menu';
 
 	let settings = {
 		method : "GET"
@@ -262,7 +262,7 @@ function cafeP(){
 function menuP(){
 
 	let search = 3;
-	let url = 'http://localhost:8080/cafeterias-api/getByCafeteria?cafeteria='+ search;
+	let url = '/cafeterias-api/getByCafeteria?cafeteria='+ search;
 				let settings = {
 					method : "GET"
 				}
